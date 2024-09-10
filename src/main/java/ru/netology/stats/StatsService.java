@@ -10,7 +10,7 @@ public class StatsService {
     }
 
     public long calculateAverageSale(long[] sales) {
-        return calculateAverageSale(sales) / sales.length;
+        return calculateSumSale(sales) / sales.length;
     }
 
     public int maxSales(long[] sales) {
